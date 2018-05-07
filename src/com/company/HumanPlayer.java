@@ -6,8 +6,6 @@ public class HumanPlayer extends Player{
         this.name = getName();
     }
 
-
-
     private String getName() {
         Prompt.showMessage("Enter player name:");
         return Prompt.getStringInput(true);

@@ -40,8 +40,6 @@ public class Game {
     public void getPlayers() {
 
         boolean isTwoPlayer = Prompt.isTwoPlayerGame();
-
-
         players = new Player[2];
         players[0] = new HumanPlayer();
         players[1] = (isTwoPlayer) ? new HumanPlayer()  : new ComputerPlayer();

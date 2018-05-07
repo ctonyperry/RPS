@@ -27,7 +27,7 @@ public class GameResult {
         this.isDraw = false;
 
         /*
-        used following algorithm from https://stackoverflow.com/questions/20271325/algorithm-for-scissor-paper-stone
+        used algorithm from https://stackoverflow.com/questions/20271325/algorithm-for-scissor-paper-stone
         to get rid of unwieldy switch statement
         */
         if (playerTwo.choice % 3 + 1 == playerOne.choice) {
@@ -46,7 +46,7 @@ public class GameResult {
             this.isDraw = true;
             System.out.println("-- Draw --");
         }
-        if (!isDraw)
+        if (!this.isDraw)
             Prompt.showMessage(String.format(winString, winnerName));
 
     }

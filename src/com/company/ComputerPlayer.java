@@ -4,9 +4,6 @@ import java.util.Random;
 
 public class ComputerPlayer extends Player {
 
-
-
-
     ComputerPlayer() {
         this.generateRandomName();
     }
@@ -30,5 +27,6 @@ public class ComputerPlayer extends Player {
         sb.setCharAt(0, ("" + sb.charAt(0)).toUpperCase().charAt(0));
 
         this.name=sb.toString();
+        Prompt.showMessage(String.format("%s has entered the game",this.name));
     }
 }
