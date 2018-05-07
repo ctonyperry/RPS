@@ -32,7 +32,6 @@ public class Prompt {
         showMessage("Play Again? (y or n)");
 
         boolean choice = (getStringInput().equals("n")) ? false : true;
-        System.out.println(choice);
         //Only 'n' quits, any other input including just \n will play again
         return choice;
     }
