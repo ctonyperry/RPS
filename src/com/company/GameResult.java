@@ -27,7 +27,7 @@ public class GameResult {
         this.isDraw = false;
 
         /*
-        used mod solution at https://stackoverflow.com/questions/20271325/algorithm-for-scissor-paper-stone
+        mod solution from https://stackoverflow.com/questions/20271325/algorithm-for-scissor-paper-stone
         to get rid of unwieldy switch statement
         */
 

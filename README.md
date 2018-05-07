@@ -1,3 +1,3 @@
 # RPS
 
-RPS is an implementation of a simple rock, paper, scissors game by Tony Perry
+RPS is an implementation of rock, paper, scissors game by Tony Perry

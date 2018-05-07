@@ -20,7 +20,7 @@ public class History {
     }
 
     public void listHistory() {
-        int i = 0;
+        int i = 1;
         Prompt.showMessage("---- History ----");
         for (GameResult result : getHistory()) {
             if(!result.isDraw) {
