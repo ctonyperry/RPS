@@ -33,8 +33,6 @@ public class HumanPlayer extends Player{
                 Prompt.showMessage("Invalid choice, try again");
                 choose();
                 break;
-
-
         }
     }
 }

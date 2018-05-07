@@ -27,9 +27,10 @@ public class GameResult {
         this.isDraw = false;
 
         /*
-        used solution at https://stackoverflow.com/questions/20271325/algorithm-for-scissor-paper-stone
+        used mod solution at https://stackoverflow.com/questions/20271325/algorithm-for-scissor-paper-stone
         to get rid of unwieldy switch statement
         */
+
         if (playerTwo.choice % 3 + 1 == playerOne.choice) {
             this.winnerName = playerOne.name;
             this.loserName = playerTwo.name;
@@ -54,7 +55,6 @@ public class GameResult {
             Prompt.showMessage(String.format(winString, winnerName));
 
     }
-
 
     public static String getObjectName(int objectCode) {
         String returnValue = null;

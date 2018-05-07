@@ -8,14 +8,15 @@ public class ComputerPlayer extends Player {
         this.generateRandomName();
     }
 
-
     public void choose() {
+
         Random ran = new Random();
         this.choice =(int)(Math.random() * 3) + 1;
         Prompt.showMessage(String.format("%s chooses %s", this.name, GameResult.getObjectName(this.choice)));
     }
 
     private void generateRandomName() {
+        //Randomly generate a string of alternating consonants and vowels to be used as the computer player's "name"
         StringBuilder sb = new StringBuilder();
         char[] vowels = {'a', 'e', 'i', 'o', 'u'};
         char[] consonants = {'b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z'};

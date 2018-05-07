@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class Prompt {
-
+    //This class mostly exists as a way to easily replace the input output in case I had time.
 
     public static String getStringInput(boolean preserveCase) {
 

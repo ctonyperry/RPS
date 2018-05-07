@@ -6,7 +6,6 @@ public class Player {
     String name;
     int choice;
 
-
     Player() {
 
     }

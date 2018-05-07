@@ -4,12 +4,12 @@ import java.util.ArrayList;
 
 public class History {
 
+    private ArrayList<GameResult> history;
+
     public History() {
 
         this.history = new ArrayList<GameResult>();
     }
-
-    private ArrayList<GameResult> history;
 
     public ArrayList<GameResult> getHistory() {
         return this.history;
