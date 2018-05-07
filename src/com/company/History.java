@@ -23,11 +23,12 @@ public class History {
         int i = 0;
         Prompt.showMessage("---- History ----");
         for (GameResult result : getHistory()) {
-            if(result.winnerName!=null) {
+            if(!result.isDraw) {
                 String gameResultOutput = "Game %d:\n   Winner: %s (%s)\n   Loser: %s (%s)";
                 Prompt.showMessage(String.format(gameResultOutput, i++, result.winnerName, result.winnerChoice, result.loserName, result.loserChoice));
             }else {
-                String gameResultOutput = "Game %d: DRAW\n";
+                String gameResultOutput = "Game %d: DRAW\n  %s (%s)\n   %s (%s)";
+                Prompt.showMessage(String.format(gameResultOutput, i++, result.winnerName, result.winnerChoice, result.loserName, result.loserChoice));
 
             }
         }
