@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c20b376-4286-4d3c-a6dd-8c199c4a26ab" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/company/ComputerPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ComputerPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/GameResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/GameResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/History.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/History.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/HumanPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/HumanPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Prompt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Prompt.java" afterDir="false" />
-    </list>
+    <list default="true" id="5c20b376-4286-4d3c-a6dd-8c199c4a26ab" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,10 +25,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Game.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
+            <state relative-caret-position="277">
               <caret line="66" column="5" lean-forward="true" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -99,10 +91,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameResult.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GameResult.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/GameResult.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="61">
+            <state relative-caret-position="-428">
               <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
             </state>
           </provider>
@@ -269,6 +261,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="121" y="28" width="1559" height="974" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -381,13 +374,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/GameResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Prompt.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="82">
@@ -415,7 +401,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
+        <state relative-caret-position="277">
           <caret line="66" column="5" lean-forward="true" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -424,6 +410,13 @@
             <element signature="e#1308#1309#0" expanded="true" />
             <element signature="e#1338#1339#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/GameResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-428">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
         </state>
       </provider>
     </entry>
